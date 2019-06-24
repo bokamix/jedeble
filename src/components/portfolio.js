@@ -33,8 +33,7 @@ const Portfolio = () => (
       <div key={project.id} className={stylePortfolio.div__children}>
        <Link className={stylePortfolio.link}to={project.slug}>  <div className={stylePortfolio.card}><img className={stylePortfolio.img__cover} src={project.imgscreen.url} alt={project.imgscreen.id} />
          <div className={stylePortfolio.div__children__info}>
-                <h2>{project.name}</h2>
-                <p>{project.about}</p>
+                <h2>{project.name}</h2>              
                 <p>{project.donedata}</p>
           </div></div></Link>
          

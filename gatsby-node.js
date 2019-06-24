@@ -5,8 +5,8 @@ const path = require('path');
 
 exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
-    const albumTemplate = path.resolve(`src/templates/albumTemplate.js`)
-    const albumsQuery = await graphql(`
+    const projectTemplate = path.resolve(`src/templates/projectTemplate.js`)
+    const projectQuery = await graphql(`
     {portfolio{
         projects: projectsConnection(first: 100) {
         edges {
@@ -29,6 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
               width
               size
               mimeType
+              url
             }
             linktoproject
             slug
@@ -37,10 +38,10 @@ exports.createPages = async ({ graphql, actions }) => {
         
         `)
 
-       albumsQuery.data.portfolio.projects.edges.forEach(project => {
+        projectQuery.data.portfolio.projects.edges.forEach(project => {
           createPage({
                 path:project.node.slug,
-                component: albumTemplate,
+                component: projectTemplate,
                 context:{
                   data:project.node
                 }
