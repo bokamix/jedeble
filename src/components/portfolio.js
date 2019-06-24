@@ -28,6 +28,7 @@ const Portfolio = () => (
     `}
     render={({portfolio: {projects}}) => (
       <>
+     
       {projects.map(project => (
           
       <div key={project.id} className={stylePortfolio.div__children}>

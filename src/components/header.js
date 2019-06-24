@@ -16,6 +16,7 @@ const Header = () => {
   `)
 
 return (
+    <div className={headerStyles.header__graphics}>
     <div className={headerStyles.container}>
       <nav>
           <ul>
@@ -29,7 +30,7 @@ return (
 
  <p>{data.site.siteMetadata.title}</p>
     
-    </div>
+    </div></div>
 )
 
 }
