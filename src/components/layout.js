@@ -7,7 +7,7 @@ return (
     <div className={layoutStyle.container}>
       <Header />
       {props.children}  
-    <Footer />
+     <Footer />
     </div>
 )
 
