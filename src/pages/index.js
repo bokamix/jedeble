@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
 import Portfolio from "../components/portfolio";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import "./index.css";
-
+import About from "../components/about"
 
 const IndexPage = () => (
   <>
@@ -15,8 +14,8 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       
       </div>
+     <About />
      
-      <Link to="/">Go to page 2</Link>
 
     </Layout>
 

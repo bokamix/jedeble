@@ -16,6 +16,11 @@ ul {
  }
 }
    
+.navigation{
+   margin-top:50px;
+   
+}
+
 .header__graphics{
 
    clip-path: polygon(100% 0px, 0px 0px, 0px 70%, 50% 100%, 100% 70%);
@@ -23,4 +28,8 @@ ul {
    position: relative;
    background: linear-gradient(45deg, rgb(62, 95, 188) 0%, rgb(40, 65, 135) 100%);
    overflow: hidden;
+}
+a{
+   text-decoration: none;
+   color:white;
 }
