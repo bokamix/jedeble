@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import "./index.css";
 import About from "../components/about"
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <>
@@ -15,7 +16,7 @@ const IndexPage = () => (
       
       </div>
      <About />
-     
+     <Contact />
 
     </Layout>
 

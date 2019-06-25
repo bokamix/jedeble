@@ -13,7 +13,7 @@ const projectTemplate = ({pageContext:{ data }}) => (
     <div className={templateStyles.container}>
   <h1>{data.name}</h1>
   <p>{data.about}</p>
-  <img className={templateStyles.project__img__desktop}src={data.imgscreen.url} alt={'Image' + data.name} />
+  <img className={templateStyles.project__img__desktop}src={data.screendesktop.url} alt={'Image' + data.name} />
   </div>
     </Layout>
 

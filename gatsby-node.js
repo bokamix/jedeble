@@ -32,6 +32,12 @@ exports.createPages = async ({ graphql, actions }) => {
               url
             }
             linktoproject
+            screendesktop
+            {
+              url
+              fileName
+            }
+           
             slug
           }
         }}}}
