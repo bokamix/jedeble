@@ -3,6 +3,8 @@
     background: green;
     display: flex;
     justify-content: space-evenly;
+    bottom:0;
+    position: relative;
 }
 .box{
     width: 100px;
