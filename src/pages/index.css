@@ -3,6 +3,7 @@ body
  {
     font-family: 'Catamaran', sans-serif;
     margin:0;
+    position: relative;
   }
   h1,h2{
 font-weight: 700;    
@@ -13,4 +14,17 @@ font-weight: 700;
 .Section__Title{
 text-align: center;
 
+}
+
+@media screen and (min-width:1200px) {
+  body { font-size:110%; } /* Increase the font size */
+}
+@media screen and (min-width:1400px) {
+  html { } /* Reduce the container width */
+}
+@media screen and (min-width:1600px) {
+  body { font-size:125%; } /* Increase the font size */
+}
+@media screen and (min-width:1800px) {
+  html {  } /* Reduce the container width */
 }
