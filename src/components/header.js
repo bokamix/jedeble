@@ -21,9 +21,10 @@ return (
       <nav className={headerStyles.navigation}>
           <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/">Project</Link></li>
+              <li><Link to="/">Projects</Link></li>
               <li><Link to="/">Technology</Link></li>
               <li><Link to="/">Contact</Link></li>
+              <li><button>show my party mode</button></li>
           </ul>
 
       </nav>

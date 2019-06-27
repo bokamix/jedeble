@@ -9,8 +9,8 @@ return (
   <div className={contactStyles.container}>
     <div className={contactStyles.box}>
       <h2>Contact with me:</h2>
-      <p>LinkedIn Profile: Link</p>
-      <p>Facebook Messenger: Link</p>
+      <p>LinkedIn Profile (click)</p>
+      <p>Facebook Messenger (click)</p>
       <p>Email: jededesign@gmail.com</p>
     </div>
     <div className={contactStyles.box}><img className={contactStyles.avatar} src={profileImg} width="200" alt="Author" /></div>

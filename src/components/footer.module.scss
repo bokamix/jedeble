@@ -2,17 +2,17 @@ footer{
 
     clear: both;
     position: relative;
-    height: 100px;
+    height: 60px;
     margin-top: 20px;
     bottom: 0;
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, (#1a1a1b) 0%, rgb(21, 61, 77) 100%);
 }
 
 .container{
    
 
     p{
-        color:#737373;
+        color:white;
         text-align: center;
     }
     display: flex;
