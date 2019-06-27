@@ -9,7 +9,7 @@ return (
   <div className={TitleSectionStyle.container}>
     <div className={TitleSectionStyle.box}><h2>Everything for Efficiency</h2>
     <p>Front-End Developer</p></div>
-    <div className={TitleSectionStyle.box}><img src={titleImage} alt="title img"width="300"/></div>
+    <div className={TitleSectionStyle.box}><img src={titleImage} alt="title img"/></div>
     
   </div>
   </>
