@@ -12,10 +12,12 @@ const projectTemplate = ({pageContext:{ data }}) => (
     
     <Layout>
     <div className={templateStyles.container}>
-  <button onClick={()=>changeimg(data)} id="buttonM">dasd</button>
+ 
   <h1>{data.name}</h1>
   <p>{data.about}</p>
-  <img id="project__img" className={templateStyles.project__img__desktop}src={(x===1 && data.screendesktop.url) || 0} alt={'Image' + data.name} />
+  <div className={templateStyles.wrapper__button}>
+    <button  className={templateStyles.button__mobile} onClick={()=>changeimg(data)} id="buttonMobile">SHOW MOBILE VERSION</button></div>
+  <img id="project__img" className={templateStyles.project__img__desktop}src={(data.screendesktop.url) || 0} alt={'Image' + data.name} />
   </div>
     </Layout>
 
@@ -26,17 +28,20 @@ const projectTemplate = ({pageContext:{ data }}) => (
 
 function changeimg(data){
   let imgscreenvalue = document.querySelector("#project__img");
+  let buttonMobile = document.querySelector("#buttonMobile");
     if(x === 1)
     {
       
-      imgscreenvalue.src = data.imgscreen.url      
-      x=2
+      imgscreenvalue.src = data.imgscreen.url  ;
+      buttonMobile.innerHTML = "SHOW DESKTOP VERSION" ;   
+      x=2;
     }
 else if( x === 2){
 
   
-  imgscreenvalue.src = data.screendesktop.url 
-  x=1
+  imgscreenvalue.src = data.screendesktop.url;
+  buttonMobile.innerHTML = "SHOW MOBILE VERSION";
+  x=1;
 }
 
   }

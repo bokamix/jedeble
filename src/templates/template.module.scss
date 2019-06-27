@@ -2,6 +2,27 @@
     max-width: 900px;
     margin:0 auto;
     text-align: center;
+    
+}
+
+.wrapper__button{
+
+width:100%;
+.button__mobile{
+    border: 2px dashed #226fbe;
+    background: white;
+    border-radius: 15px;
+    font-weight: 700;
+    padding:15px;
+    width:250px;
+    margin:20px;
+    margin-bottom: 50px;}
+    .button__mobile:hover {
+        background: transparent;
+        color: #ffffff;
+        background: #226fbe;
+    }
+
 }
 .project__img__desktop
 {

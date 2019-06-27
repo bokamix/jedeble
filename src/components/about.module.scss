@@ -11,8 +11,20 @@ h2{
 }
 .box{
     width: 200px;
-    height:200px;
-    border:solid 3px black; 
-    margin:15px;
-  
+    margin:15px;  
+}
+.box:nth-child(2){
+    width:400px;
+}
+
+.wrapper__logos
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    img{
+        padding:8px;
+        width: 80px;
+        height: 100%;
+    }
 }
