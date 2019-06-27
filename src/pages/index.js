@@ -14,9 +14,7 @@ const IndexPage = () => (
       <TitleSection />
     <h1 className="Section__Title">Portfolio</h1>
     <Portfolio />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      
-      </div>
+    
      <About />
      <Contact />
 
