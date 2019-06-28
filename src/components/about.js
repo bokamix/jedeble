@@ -23,12 +23,19 @@ return (
  <h2>Jestem programistem</h2>
  <div className={aboutStyles.wrapper__boxes}>
 <div className={aboutStyles.box}>Creative
-  <div className={aboutStyles.wrapper__logos}><img alt= "uxpin" src={uxpin}  /><img src={photoshop} alt="photoshop" /></div></div>
+  <div className={aboutStyles.wrapper__logos}>
+    <img alt= "uxpin" src={uxpin}  />
+    <img src={photoshop} alt="photoshop" /></div></div>
 <div className={aboutStyles.box}>Development<div className={aboutStyles.wrapper__logos}>
-<img alt= "JavaScript Icon" src={jsIcon}  /><img alt= "Gatsby" src={GatsbyIcon}  /><img alt= "ReactJs Icon" src={reactLogo}  />
-<img alt= "Netlify Logo" src={netlifyLogo}  /><img alt= "NPM" src={NPMlogo} width="130" />
-<img alt= "Git Logo" src={gitLogo}  /><img alt= "JAMStack" src={JAMStackLogo}  /><img alt= "GraphCMS" src={GraphCMS}  />
-<img alt= "GraphQL" src={GraphQLLogo}  />
+          <img alt= "JavaScript Icon" src={jsIcon}  />
+          <img alt= "Gatsby" src={GatsbyIcon}  />
+          <img alt= "ReactJs Icon" src={reactLogo}  />
+          <img alt= "Netlify Logo" src={netlifyLogo}  />
+          <img alt= "NPM" src={NPMlogo} width="130" />
+          <img alt= "Git Logo" src={gitLogo}  />
+          <img className={aboutStyles.logoText} alt= "JAMStack" src={JAMStackLogo}  />
+          <img className={aboutStyles.logoText} alt= "GraphCMS" src={GraphCMS}  />
+          <img className={aboutStyles.logoText} alt= "GraphQL" src={GraphQLLogo}  />
   </div></div>
 <div className={aboutStyles.box}> Fun<div className={aboutStyles.wrapper__logos}>
   <img alt= "Facebook Ads" src={FacebookADS}  />

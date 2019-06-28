@@ -4,9 +4,13 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 auto;
+    background-image: url(../images/responsiveimg.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
     h2{
         text-align: left;
-        font-size: 3rem;
+        
     }
 }
 .box{
@@ -15,10 +19,35 @@
     padding: 15px;
     &:nth-child(2){
         text-align: center;
+        width: 500px;
     }
+
+    
 img{
     width: 70%;
     margin:auto 0;
 }
     
 }
+
+.main__title{
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 576px){
+    .main__title {
+    font-size: 2rem;
+    line-height: 2.7rem;
+}}
+
+@media screen and (max-width: 768px){
+    .main__title {
+    font-size: 2.51984rem;
+    line-height: 2.9rem;
+}}
+
+@media screen and (max-width: 1000px){
+    .main__title {
+    font-size: 2.51984rem;
+    line-height: 2.9rem;
+}}

@@ -11,15 +11,15 @@ return (
           <ul>
               <li className={headerStyles.list__item}><Link to="/">Home</Link></li>
               <li className={headerStyles.list__item}><Link to="/">Projects</Link></li>
-              <li><img alt ="Logo Jede"src={jedeLogo} width="100" /> </li>
+              <li><Link to="/"><img alt ="Logo Jede"src={jedeLogo} width="100" /> </Link></li>
               <li className={headerStyles.list__item}><Link to="/">Technology</Link></li>
               <li className={headerStyles.list__item}><Link to="/">Contact</Link></li>
               
           </ul>
-
+        
       </nav>
 
-
+      
     
     </div></div>
 )
