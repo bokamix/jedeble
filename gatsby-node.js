@@ -37,6 +37,11 @@ exports.createPages = async ({ graphql, actions }) => {
               url
               fileName
             }
+            screenmobile
+            {
+              url
+              fileName
+            }
            
             slug
           }

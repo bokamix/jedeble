@@ -1,6 +1,4 @@
-.navigation{li{
-   display:block;
-}
+.navigation{
 
 ul {
     list-style-type: none;
@@ -10,23 +8,23 @@ ul {
     justify-content:space-around;
     max-width: 600px;
     margin:0 auto;
+    align-items: center;
     
  a{
     text-decoration: none;
-    display: block;
+    
     width: 60px;
  }
 }
 
-
-margin-top:50px;
+margin-top:20px;
 }   
 
 
 .header__graph{
 
    clip-path: polygon(100% 0px, 0px 0px, 0px 80%, 50% 100%, 100% 80%);
-   height: 100px;
+   height: 150px;
    position: relative;
    background: radial-gradient(circle, (#1a1a1b) 0%, rgb(21, 61, 77) 100%);
    overflow: hidden;
@@ -36,10 +34,15 @@ a{
    color:white;
 }
 
-@media screen and (max-width: 700px) {
-   .navigation{
-display: none;
-         }
+@media screen and (max-width: 700px) 
+{
+   .navigation
+   {.list__item
+      {
+      display:none;
+       }
+
+   }  
        
-   }
+}
    

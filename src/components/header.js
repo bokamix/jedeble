@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from "gatsby";
 import headerStyles from "../components/header.module.scss";
-
+import jedeLogo from "../images/logojededesign.png"
 const Header = () => {
 
 return (
@@ -9,10 +9,11 @@ return (
     <div className={headerStyles.container}>
       <nav className={headerStyles.navigation}>
           <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/">Projects</Link></li>
-              <li><Link to="/">Technology</Link></li>
-              <li><Link to="/">Contact</Link></li>
+              <li className={headerStyles.list__item}><Link to="/">Home</Link></li>
+              <li className={headerStyles.list__item}><Link to="/">Projects</Link></li>
+              <li><img alt ="Logo Jede"src={jedeLogo} width="100" /> </li>
+              <li className={headerStyles.list__item}><Link to="/">Technology</Link></li>
+              <li className={headerStyles.list__item}><Link to="/">Contact</Link></li>
               
           </ul>
 

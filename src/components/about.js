@@ -2,7 +2,6 @@ import React from "react"
 import aboutStyles from "./about.module.scss"
 import photoshop from "../images/photoshop.png";
 import uxpin from "../images/uxpin.png";
-import bootstrap from "../images/bootstrap.png";
 import jsIcon from "../images/javascript.png";
 import GatsbyIcon from "../images/gatsby.png";
 import reactLogo from "../images/reactjs.png";
@@ -23,7 +22,8 @@ return (
   <div className={aboutStyles.section}>
  <h2>Jestem programistem</h2>
  <div className={aboutStyles.wrapper__boxes}>
-<div className={aboutStyles.box}>Creative<div className={aboutStyles.wrapper__logos}><img alt= "uxpin" src={uxpin}  /><img src={photoshop} alt="photoshop" /><img alt="bootstrap" src={bootstrap}  /></div></div>
+<div className={aboutStyles.box}>Creative
+  <div className={aboutStyles.wrapper__logos}><img alt= "uxpin" src={uxpin}  /><img src={photoshop} alt="photoshop" /></div></div>
 <div className={aboutStyles.box}>Development<div className={aboutStyles.wrapper__logos}>
 <img alt= "JavaScript Icon" src={jsIcon}  /><img alt= "Gatsby" src={GatsbyIcon}  /><img alt= "ReactJs Icon" src={reactLogo}  />
 <img alt= "Netlify Logo" src={netlifyLogo}  /><img alt= "NPM" src={NPMlogo} width="130" />
