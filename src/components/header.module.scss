@@ -23,11 +23,12 @@ margin-top:20px;
 
 .header__graph{
 
-   clip-path: polygon(100% 0px, 0px 0px, 0px 80%, 50% 100%, 100% 80%);
-   height: 150px;
+   clip-path: polygon(100% 0px, 0px 0px, 0px 80%, 20% 100%, 100% 80%);
+   height: 250px;
    position: relative;
    background: radial-gradient(circle, (#1a1a1b) 0%, rgb(21, 61, 77) 100%);
    overflow: hidden;
+  
 }
 a{
    text-decoration: none;
@@ -36,6 +37,14 @@ a{
 
 @media screen and (max-width: 700px) 
 {
+   .header__graph{
+
+      clip-path: polygon(100% 0px, 0px 0px, 0px 80%, 50% 100%, 100% 80%);
+      height: 150px;
+      position: relative;
+      background: radial-gradient(circle, (#1a1a1b) 0%, rgb(21, 61, 77) 100%);
+      overflow: hidden;
+   }
    .navigation
    {.list__item
       {
