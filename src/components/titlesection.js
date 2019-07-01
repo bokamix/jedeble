@@ -52,8 +52,8 @@ return (
                 <span>57% </span><p>desktop</p>
             </div>
             <div className={TitleSectionStyle.item__statistics}> 
-                <span>45% </span><p>Social media user</p>
-                <span>43% </span> <p>Mobile social media user</p>
+                <span>45% </span><p>Social media </p>
+                <span>43% </span> <p>Mobile social</p>
             </div>
           </div>
     </div>

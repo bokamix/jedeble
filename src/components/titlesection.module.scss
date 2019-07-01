@@ -1,3 +1,9 @@
+body{
+    background: url(../images/graphics-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: bottom bottom;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -36,8 +42,11 @@
 .content__section__title{width: 100%;}
 .cart__wrapper
 {
+    
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
     width: 60%;
       &:nth-child(2){
           width: 30%;
@@ -48,6 +57,7 @@
 {
     text-align: center;
     margin-top:125px;
+   
 }
 .titleSection__card{
 
@@ -64,6 +74,7 @@ margin:25px;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    margin:0 auto;
 }
 
 
@@ -97,6 +108,12 @@ img{
 
 
 @media screen and (max-width: 576px){
+    .card__section{
+        
+        width: 95%;
+    }
+    .cart__wrapper
+{ width: 90%;}
     .main__title {
     font-size: 2rem;
     line-height: 2.7rem;
@@ -104,9 +121,32 @@ img{
     text-align: center;
     margin-top:20px;
 }
-}}
+.titleSection__card{ 
+    width: 80%;    
+    }
+
+}
+.item__statistics{
+    margin:10px;
+}
+
+.wrapper__statistics{
+
+    margin:0px;
+    
+}
+
+
+
+}
 
 @media screen and (max-width: 768px){
+    .card__section{
+        
+        width: 95%;
+    }
+    .cart__wrapper
+{ width: 90%;}
     .main__title {
     font-size: 2.51984rem;
     line-height: 2.9rem;
@@ -114,9 +154,29 @@ img{
         text-align: center;
         margin-top:20px;
     }
-}}
+}
+.item__statistics{
+    margin:10px;
+}
+.titleSection__card{ 
+    width: 80%;    
+    }
+.wrapper__statistics{
+
+    margin:0px;
+    
+}
+
+
+}
 
 @media screen and (max-width: 1000px){
+    .card__section{
+        
+        width: 95%;
+    }
+    .cart__wrapper
+{ width: 90%;}
     .main__title {
     font-size: 2.51984rem;
     line-height: 2.9rem;
@@ -124,4 +184,17 @@ img{
         text-align: center;
         margin-top:20px;
     }
-}}
+}
+.item__statistics{
+    margin:10px;
+}
+.wrapper__statistics{
+
+    margin:0px;
+    
+}
+.titleSection__card{ 
+    width: 80%;    
+    }
+
+}
