@@ -31,15 +31,15 @@ const Portfolio = () => (
      
       {projects.map(project => (
           
-      <div key={project.id} className={stylePortfolio.div__children}>
-       <a className={stylePortfolio.link} href={project.slug}><div className={stylePortfolio.card}><img className={stylePortfolio.img__cover} src={project.imgscreen.url} alt={project.imgscreen.id} />
+          <a key={project.id} className={stylePortfolio.link} href={project.slug}> <div  className={stylePortfolio.div__children}>
+      
+         <div className={stylePortfolio.card}><img className={stylePortfolio.img__cover} src={project.imgscreen.url} alt={project.imgscreen.id} />
          <div className={stylePortfolio.div__children__info}>
                 <h2>{project.name}</h2>              
                 <p>{project.donedata}</p>
-          </div></div></a>
-         
-          
-       </div>
+          </div></div>
+      
+       </div></a>
          
         ))
         }
