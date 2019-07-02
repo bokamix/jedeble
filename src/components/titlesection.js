@@ -7,16 +7,16 @@ return (
   <>
   
   <div className={TitleSectionStyle.container}>
-        <div className={TitleSectionStyle.box}>
+        
           <p className={TitleSectionStyle.main__title}>“Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” ANTOINE DE SAINT-EXUPÉRY</p>
         <p>Front-End Developer</p>
-        </div>
+        
   </div>
 
-  <h2>Jakie są najpopularniejsze CMS?</h2>
+
   <div className={TitleSectionStyle.statisctcs__container}>
           <div className={TitleSectionStyle.content__section}>
-              <h3>to to tam</h3>
+              <h3>Jakie są najpopularniejsze CMS?</h3>
               <p>Data from 2018: BuiltWith.com, W3tech.com, SimilarTech, Google Trends.</p>     
               <div className={TitleSectionStyle.wrapper__statistics}>
                     <div className={TitleSectionStyle.item__statistics}>
@@ -38,13 +38,13 @@ return (
 
 
 
-  <h2>Gdzie ludzie używają internetów?</h2>
+
   <div className={TitleSectionStyle.statisctcs__container}>
         <div className={TitleSectionStyle.content__section__img}>
           <img src={titleImage} width="300"alt="statistic" />
         </div>
     <div className={TitleSectionStyle.content__section}>
-      <h3>BlaBla Bla</h3>
+      <h3>Gdzie ludzie używają internetów?</h3>
       <p>data from wearesocial.com, hootsuite.com</p>
           <div className={TitleSectionStyle.wrapper__statistics}>
             <div className={TitleSectionStyle.item__statistics}>
@@ -59,10 +59,10 @@ return (
     </div>
  </div>
 
-      <h2>Co ich wkurza??</h2>
+  
   <div className={TitleSectionStyle.card__section}>
         <div className={TitleSectionStyle.cart__wrapper}> 
-           <div className={TitleSectionStyle.titleSection__card}>
+            <div className={TitleSectionStyle.titleSection__card}>
                  <h3>Długi czas wczytywania strony</h3>
                  <p>Długi czas wczytywania strony</p>
             </div> 

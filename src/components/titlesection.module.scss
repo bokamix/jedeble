@@ -15,7 +15,7 @@
     }}
     .statisctcs__container{
         display: flex;
-        width: 80%;
+        width: 90%;
         justify-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
@@ -83,7 +83,8 @@ margin:25px;
 .wrapper__statistics{
     display: flex;
     flex-wrap: wrap;
-    margin:50px;
+    align-items: center;
+    margin:10px;
     
 }
 .item__statistics{
@@ -117,8 +118,8 @@ img{
     .cart__wrapper
 { width: 90%;}
     .main__title {
-    font-size: 2rem;
-    line-height: 2.7rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
     .content__section__img{
     text-align: center;
     margin-top:20px;
@@ -132,11 +133,7 @@ img{
     margin:10px;
 }
 
-.wrapper__statistics{
 
-    margin:0px;
-    
-}
 
 
 
@@ -150,8 +147,8 @@ img{
     .cart__wrapper
 { width: 90%;}
     .main__title {
-    font-size: 2.51984rem;
-    line-height: 2.9rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
     .content__section__img{
         text-align: center;
         margin-top:20px;
@@ -163,11 +160,7 @@ img{
 .titleSection__card{ 
     width: 80%;    
     }
-.wrapper__statistics{
 
-    margin:0px;
-    
-}
 
 
 }
@@ -180,8 +173,8 @@ img{
     .cart__wrapper
 { width: 90%;}
     .main__title {
-    font-size: 2.51984rem;
-    line-height: 2.9rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
     .content__section__img{
         text-align: center;
         margin-top:20px;
@@ -190,13 +183,13 @@ img{
 .item__statistics{
     margin:10px;
 }
-.wrapper__statistics{
 
-    margin:0px;
-    
-}
+
 .titleSection__card{ 
     width: 80%;    
     }
 
+}
+.main__title{
+    padding:10px;
 }
