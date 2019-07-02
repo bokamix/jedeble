@@ -19,7 +19,7 @@
         justify-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
-        padding: 30px;
+       
         text-align: center;
         span{
     
@@ -55,6 +55,7 @@
 {
     text-align: center;
     margin-top:125px;
+    width: 90%;
    
 }
 .titleSection__card{
@@ -123,6 +124,7 @@ img{
     .content__section__img{
     text-align: center;
     margin-top:20px;
+     max-width: 260px;
 }
 .titleSection__card{ 
     width: 80%;    
@@ -178,6 +180,7 @@ img{
     .content__section__img{
         text-align: center;
         margin-top:20px;
+        width: 90%;
     }
 }
 .item__statistics{

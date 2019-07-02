@@ -30,7 +30,7 @@ return (
               </div>
           </div>
       <div className={TitleSectionStyle.content__section__img}>
-          <img src={titleImage} width="300"alt="statistic" />
+          <img src={titleImage} width="230"alt="statistic" />
        </div>
 
   </div>
@@ -41,7 +41,7 @@ return (
 
   <div className={TitleSectionStyle.statisctcs__container}>
         <div className={TitleSectionStyle.content__section__img}>
-          <img src={titleImage} width="300"alt="statistic" />
+          <img src={titleImage} width="230"alt="statistic" />
         </div>
     <div className={TitleSectionStyle.content__section}>
       <h3>Gdzie ludzie używają internetów?</h3>
