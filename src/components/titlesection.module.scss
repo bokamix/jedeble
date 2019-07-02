@@ -1,8 +1,6 @@
-body{
-    background: url(../images/graphics-bg.jpg);
-   background-repeat: no-repeat;
-   background-position: bottom bottom;
-}
+
+
+
 
 .container{
     display: flex;
@@ -63,7 +61,11 @@ body{
 
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
-width: 20%;
+background: rgb(4,125,198);
+background: linear-gradient(120deg, rgba(4,125,198,1) 3%, rgba(4,178,202,1) 36%, rgba(3,143,210,1) 81%, rgba(0,212,255,1) 100%);
+width: 24%;
+color:white;
+height: 150px;
 border-radius: 20px;
 text-align: center;
 padding: 30px;
