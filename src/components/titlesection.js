@@ -1,6 +1,9 @@
 import React from "react"
 import TitleSectionStyle from "../components/titlesection.module.scss";
-import titleImage from "../images/gatsby-icon.png"
+import titleImage from "../images/gatsby-icon.png";
+import cmsImg from "../images/cms-img.png";
+
+import internetImg from "../images/internet-img.png";
 
 const TitleSection = () => {
 return (
@@ -22,7 +25,7 @@ return (
 
   <div className={TitleSectionStyle.statisctcs__container}>
         <div className={TitleSectionStyle.content__section__img}>
-          <img src={titleImage} width="230"alt="statistic" />
+          <img src={internetImg} width="230"alt="statistic" />
         </div>
     <div className={TitleSectionStyle.content__section}>
       <h3>Gdzie ludzie używają internetów?</h3>
@@ -55,7 +58,7 @@ return (
               </div>
           </div>
       <div className={TitleSectionStyle.content__section__img}>
-          <img src={titleImage} width="230"alt="statistic" />
+          <img src={cmsImg} width="230"alt="statistic" />
        </div>
 
   </div>
