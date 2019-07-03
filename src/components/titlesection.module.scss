@@ -54,8 +54,9 @@
 .content__section__img
 {
     text-align: center;
-    margin-top:125px;
-    width: 90%;
+    
+ 
+    img{width:90%;}
    
 }
 .titleSection__card{
@@ -120,7 +121,8 @@ img{
 { width: 90%;}
     .main__title {
     font-size: 1.3rem;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
+    text-align: justify;
     .content__section__img{
     text-align: center;
     margin-top:20px;
@@ -149,8 +151,9 @@ img{
     .cart__wrapper
 { width: 90%;}
     .main__title {
+        text-align: justify;
     font-size: 1.3rem;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
     .content__section__img{
         text-align: center;
         margin-top:20px;
@@ -175,8 +178,9 @@ img{
     .cart__wrapper
 { width: 90%;}
     .main__title {
+        text-align: justify;
     font-size: 1.3rem;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
     .content__section__img{
         text-align: center;
         margin-top:20px;
@@ -195,4 +199,10 @@ img{
 }
 .main__title{
     padding:10px;
+    text-align: justify;
+}
+.section__bacground__first
+{
+    background: url(../images/background-gradient.svg);
+    background-repeat: no-repeat;
 }

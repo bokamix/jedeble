@@ -10,7 +10,9 @@ import TitleSection from "../components/titlesection";
 const IndexPage = () => (
   <>
     <SEO title="Home" />   
+   
     <Layout>
+     
       <TitleSection />
     <h1 className="Section__Title">Portfolio</h1>
     <Portfolio />
