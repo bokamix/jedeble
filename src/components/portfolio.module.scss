@@ -34,3 +34,9 @@ margin-top:35px;
 .div__children:hover{
 box-shadow: 0 0 50px 0 rgba(132,70,232,.45);
 }
+@media screen and (min-width: 1000px){
+    .container{
+        width:60%;
+        margin:0 auto;
+    }
+}
