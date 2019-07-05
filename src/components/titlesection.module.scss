@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 auto;
+align-items: center;
   
     h2{
         text-align: left;
@@ -220,7 +221,43 @@ img{
     }
 
 }
+
+
+.main__header{
+    text-align: center;
+}
+
+.container__header{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    img{
+        width:280px;
+    }
+}
 .main__title{
     padding:10px;
     text-align: justify;
+    
+    
+}
+@media screen and (min-width: 1000px){
+
+    .main__title{
+        text-align: center;
+        width: 600px;
+        font-size: 1.5rem;
+    }
+
+    .container__header{
+
+      
+        img{
+            width:400px;
+        }
+    }
 }

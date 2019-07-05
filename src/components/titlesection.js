@@ -9,10 +9,12 @@ const TitleSection = () => {
 return (
   <>
   
-  <div className={TitleSectionStyle.container}>
+  <div className={TitleSectionStyle.container__header}>
         
-          <p className={TitleSectionStyle.main__title}>“Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” ANTOINE DE SAINT-EXUPÉRY</p>
-        <p>Front-End Developer</p>
+          <div className={TitleSectionStyle.main__title}><p>“Perfection is achieved, not when there is nothing more to add, 
+           but when there is nothing left to take away.” </p>
+            <p>ANTOINE DE SAINT-EXUPÉRY</p></div>
+        <div ><img src={internetImg}  alt="statistic" /></div>
         
   </div>
 
@@ -25,7 +27,7 @@ return (
 
   <div className={TitleSectionStyle.statisctcs__container}>
         <div className={TitleSectionStyle.content__section__img}>
-          <img src={internetImg} width="230"alt="statistic" />
+          
         </div>
     <div className={TitleSectionStyle.content__section}>
       <h3>Gdzie ludzie używają internetów?</h3>
