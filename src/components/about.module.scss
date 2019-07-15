@@ -19,18 +19,17 @@ h2{
 @media screen and (min-width: 1000px){
 .wrapper__logos
 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background: url(../images/technology.png);
    
+    background: url(../images/technology.png);   
     background-position: center center;
     width: 1000px;
     height: 500px;
     margin: 0 auto;
     
     background-repeat: no-repeat;
+    h2{
+        padding-top:100px;
+    }
     
 }
 }

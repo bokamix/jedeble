@@ -10,6 +10,9 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: url(../images/contact-backg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box{
     width: 300px;

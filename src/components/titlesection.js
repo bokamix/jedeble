@@ -1,7 +1,6 @@
 import React from "react"
 import TitleSectionStyle from "../components/titlesection.module.scss";
-import titleImage from "../images/gatsby-icon.png";
-import cmsImg from "../images/cms-img.png";
+
 
 import internetImg from "../images/internet-img.png";
 
@@ -22,24 +21,28 @@ return (
 
   
   <div className={TitleSectionStyle.card__section}>
-        <div className={TitleSectionStyle.cart__wrapper}> 
+  <div className={TitleSectionStyle.about__container}><h2>About</h2><p>aosdkpoaskdposakdpoask</p></div>
+     
+      <div className={TitleSectionStyle.card__wrapper}> 
             <div className={TitleSectionStyle.titleSection__card}>
-                 <h3>Front-End</h3>
-                
+                 <h2>Front-End</h2>
+                 <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
             </div> 
            <div className={TitleSectionStyle.titleSection__card}>
-                  <h3>Design</h3>
+                  <h2>Design</h2>
+                  <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
                   
             </div> 
            <div className={TitleSectionStyle.titleSection__card}>
-                 <h3>E-commerce</h3>
-                
+                 <h2>E-commerce</h2>
+                 <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
             </div> 
            <div className={TitleSectionStyle.titleSection__card}>
-                 <h3>UX</h3>
-                 
+                 <h2>UX</h2>
+                 <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
            </div> 
         </div>
+      
           
   </div>
 
