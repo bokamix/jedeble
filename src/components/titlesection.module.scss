@@ -67,8 +67,15 @@ height: 150px;
 border-radius: 20px;
 text-align: center;
 padding: 30px;
+background-size: cover;
 margin:25px;
+color:white;
 
+&:nth-child(1)
+{background-image: url(../images/communication-device-electronic-1430366.jpg);}
+&:nth-child(2){background-image: url(../images/art-creative-design-5836.jpg);}
+&:nth-child(3){background-image: url(../images/blur-connection-ecommerce-230544.jpg);}
+&:nth-child(4){background-image: url(../images/blur-cellphone-close-up-196644.jpg);}
 
 }
 
@@ -156,7 +163,8 @@ img{
      max-width: 260px;
 }
 .titleSection__card{ 
-    width: 80%;    
+    width: 80%;  
+
     }
 
 }
@@ -228,6 +236,9 @@ img{
         width: 70%;    
         }
 
+    
+
+
 }
 
 .main__header{
@@ -265,7 +276,7 @@ img{
 
     &:hover {
         background: bisque;
-        
+        color:black;
         transform: scale(1.1); 
     }
     &:nth-child(even){
