@@ -2,7 +2,7 @@ import React from "react"
 import TitleSectionStyle from "../components/titlesection.module.scss";
 
 
-import internetImg from "../images/internet-img.png";
+import internetImg from "../images/internet-img.svg";
 
 const TitleSection = () => {
 return (
