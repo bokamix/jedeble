@@ -13,7 +13,7 @@ return (
           <div className={TitleSectionStyle.main__title}><p>“Perfection is achieved, not when there is nothing more to add, 
            but when there is nothing left to take away.” </p>
             <p>ANTOINE DE SAINT-EXUPÉRY</p></div>
-        <div ><img src={internetImg}  alt="statistic" /></div>
+        <div className={TitleSectionStyle.img__titleSection}><img src={internetImg}  alt="statistic" /></div>
         
   </div>
 
