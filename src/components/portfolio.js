@@ -36,7 +36,7 @@ const Portfolio = () => (
          <div className={stylePortfolio.card}><img className={stylePortfolio.img__cover} src={project.imgscreen.url} alt={project.imgscreen.id} />
          <div className={stylePortfolio.div__children__info}>
                 <h2>{project.name}</h2>              
-                <p>{project.donedata}</p>
+                <p className={stylePortfolio.card__text}>{project.about}</p>
           </div></div>
       
        </div></a>
