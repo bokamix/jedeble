@@ -1,3 +1,7 @@
+.contact__section{
+margin-top:60px;
+}
+
 h2{
    
     text-align: center;
@@ -30,7 +34,26 @@ h2{
     h2{
         padding-top:100px;
     }
-    
+    .technology__logos__mobile{
+    display: none;
+    }
 }
 }
 //880
+@media screen and (max-width: 1000px){
+    .wrapper__logos__mobile
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items:center;
+        img{
+            padding:8px;
+            width: 80px;
+            height: 100%;
+        }
+
+}}
+
+
+
