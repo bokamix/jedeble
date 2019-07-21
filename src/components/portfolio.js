@@ -11,7 +11,7 @@ const Portfolio = () => (
         projects {
           id
           name
-          about
+          about          
           donedata
           imgscreen {
             id

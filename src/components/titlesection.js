@@ -2,7 +2,7 @@ import React from "react"
 import TitleSectionStyle from "../components/titlesection.module.scss";
 
 
-import internetImg from "../images/internet-img.svg";
+import internetImg from "../images/React.js_logo.png";
 
 const TitleSection = () => {
 return (
@@ -21,25 +21,29 @@ return (
 
   
   <div className={TitleSectionStyle.card__section}>
-  <div className={TitleSectionStyle.about__container}><h2>About</h2><p>aosdkpoaskdposakdpoask</p></div>
+  <div className={TitleSectionStyle.about__container}>
+        <h2>About</h2>
+  <p>Cześć, jestem Wojtek Janiak
+Tworzyłem między innymi komercyjne strony internetowe dla firm, sklepy, katalogi produktów i blogi.
+ Mam doświadczenie w projektowaniu grafiki i pisaniu aplikacji webowych. </p></div>
      
       <div className={TitleSectionStyle.card__wrapper}> 
             <div className={TitleSectionStyle.titleSection__card}>
                  <h2>Front-End</h2>
-                 <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
+                
             </div> 
            <div className={TitleSectionStyle.titleSection__card}>
                   <h2>Design</h2>
-                  <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
+                
                   
             </div> 
-           <div className={TitleSectionStyle.titleSection__card}>
+           <div id="card3co" className={TitleSectionStyle.titleSection__card}>
                  <h2>E-commerce</h2>
-                 <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
+                 
             </div> 
            <div className={TitleSectionStyle.titleSection__card}>
                  <h2>UX</h2>
-                 <p>Loteo ofpksdp dsokc odsk okc csaoka  spoa poka</p>
+              
            </div> 
         </div>
       
