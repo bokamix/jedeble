@@ -1,7 +1,8 @@
 import React from "react"
 import contactStyles from "./contact.module.scss";
 import profileImg from "../images/gatsby-icon.png";
-
+import LinkedInLogo from "../images/LI-Logo.png";
+import MessengerLogo from "../images/messenger-logo.png";
 const contact = () => {
 return (
   <>
@@ -9,9 +10,9 @@ return (
   <div className={contactStyles.container}>
     <div className={contactStyles.box}>
       <h2>Contact with me:</h2>
-      <p>LinkedIn Profile (<a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/wojciech-janiak-7a7808136/">click</a>)</p>
-      <p>Facebook Messenger (<a rel="noopener noreferrer" target="_blank" href="https://www.m.me/jedepl">click</a>)</p>
-      <p>Email: jededesign@gmail.com</p>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/wojciech-janiak-7a7808136/"><img width="120" src={LinkedInLogo} alt="logo LinkedIn" /></a>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.m.me/jedepl"><img width="50" src={MessengerLogo} alt="Logo Messenger" /></a>
+      <h3>jededesign@gmail.com</h3>
     </div>
     <div className={contactStyles.box}><img className={contactStyles.avatar} src={profileImg} width="200" alt="Author" /></div>
   </div>
