@@ -11,7 +11,7 @@ return (
     <div className={contactStyles.box}>
       <h2>Contact with me:</h2>
       <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/wojciech-janiak-7a7808136/"><img width="120" src={LinkedInLogo} alt="logo LinkedIn" /></a>
-      <a rel="noopener noreferrer" target="_blank" href="https://www.m.me/jedepl"><img width="50" src={MessengerLogo} alt="Logo Messenger" /></a>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.m.me/jedepl"><img width="40" src={MessengerLogo} alt="Logo Messenger" /></a>
       <h3>jededesign@gmail.com</h3>
     </div>
     <div className={contactStyles.box}><img className={contactStyles.avatar} src={profileImg} width="200" alt="Author" /></div>

@@ -23,9 +23,8 @@ return (
   <div className={TitleSectionStyle.card__section}>
   <div className={TitleSectionStyle.about__container}>
         <h2>About</h2>
-  <p>Cześć, jestem Wojtek Janiak
-Tworzyłem między innymi komercyjne strony internetowe dla firm, sklepy, katalogi produktów i blogi.
- Mam doświadczenie w projektowaniu grafiki i pisaniu aplikacji webowych. </p></div>
+  <p>I specialize in creating commercial websites, I create online stores (and graphics for them), product catalogs and blogs. I focus on developing Front-end applications with special attention to user experience.
+ </p></div>
      
       <div className={TitleSectionStyle.card__wrapper}> 
             <div className={TitleSectionStyle.titleSection__card}>
