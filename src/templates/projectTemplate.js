@@ -16,7 +16,7 @@ const projectTemplate = ({pageContext:{ data }}) => (
   <h1>{data.name}</h1>
   <p>{data.about}</p>
   <div className={templateStyles.wrapper__button}>
-    <button  className={templateStyles.button__mobile}>Zobacz projekt w RL</button>
+    
     <button  className={templateStyles.button__mobile} onClick={()=>changeimg(data)} id="buttonMobile">SHOW MOBILE VERSION</button></div>
   <img id="project__img" className={templateStyles.project__img__desktop}src={(data.screendesktop.url)} alt={'Image' + data.name} />
 

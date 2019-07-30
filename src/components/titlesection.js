@@ -23,7 +23,7 @@ return (
   <div className={TitleSectionStyle.card__section}>
   <div className={TitleSectionStyle.about__container}>
         <h2>About</h2>
-  <p>I specialize in creating commercial websites, I create online stores (and graphics for them), product catalogs and blogs. I focus on developing Front-end applications with special attention to user experience.
+  <p>I specialize in creating commercial websites, create online stores (and graphics for them), product catalogs and blogs. I focus on developing Front-end applications with special attention to user experience.
  </p></div>
      
       <div className={TitleSectionStyle.card__wrapper}> 
