@@ -11,12 +11,10 @@ const IndexPage = () => (
   <>
     <SEO title="Home" />   
    
-    <Layout>
-     
+    <Layout>     
       <TitleSection />
     <h1 className="Section__Title">Portfolio</h1>
-    <Portfolio />
-    
+    <Portfolio />    
      <About />
      <Contact />
 

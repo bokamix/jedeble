@@ -13,6 +13,7 @@ img{
 {
     text-decoration: none;
     color:black;
+    padding:10px;
    
 }
 
@@ -35,11 +36,17 @@ margin-top:35px;
 .div__children:hover{
 box-shadow: 0 0 50px 0 rgba(132,70,232,.45);
 }
-@media screen and (min-width: 1000px){
+@media screen and (min-width:1313px){
     .container{
-        width:60%;
+        width:80%;
         margin:0 auto;
-    }
+    }    
+}
+@media screen and (min-width:1513px){
+    .container{
+        width:1300px;
+        margin:0 auto;
+    }    
 }
 .card__text{
     text-overflow: ellipsis;
