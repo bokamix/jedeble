@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Jedeble`,
-    description: `Jedeble.`,
-    author: `Jedeble`,
+    title: `Jede`,
+    description: `Jede Portfolio website. Lock at my portfolio and contact with me.`,
+    author: `Jede.pl`,
   },
   plugins: [
       'gatsby-plugin-sass',
