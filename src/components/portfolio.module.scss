@@ -43,9 +43,8 @@ box-shadow: 0 0 50px 0 rgba(132,70,232,.45);
 }
 .card__text{
     text-overflow: ellipsis;
-    text-align: justify;   
-    overflow: hidden!important;  
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical!important;
+    text-align: justify;       
+    width:250px;
+    height:100px;
+    overflow: hidden;
 }
